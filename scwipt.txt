@@ -6,7 +6,7 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
 
-MainSection:NewButton("ESP/Aimbot", "Universal", function()
+MainSection:NewButton("ESP/Aimbot", "Its self explanatory retard.", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/BeAPBzJ8"))()
 end)
 
@@ -15,7 +15,7 @@ local Rage = Window:NewTab("Rage")
 local RageSection = Rage:NewSection("Rage")
 
 
-RageSection:NewButton("Fly", "Fly/NoClip", function()
+RageSection:NewButton("Fly", "Wonder what this does?!", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/NVX9V7ve"))();
 end)
 
@@ -33,7 +33,7 @@ local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("FOV Changer")
 
 
-OtherSection:NewButton("FOV Changer", "Changes Your Field Of View", function()
+OtherSection:NewButton("FOV Changer", "cee lorg", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/4uTRHzQx"))();
 end)
 
