@@ -1,0 +1,47 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Tynon's Universal Hub", "GrapeTheme")
+
+-- Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("ESP/Aimbot", "You know aimbot is, why are you even looking at this?", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BeAPBzJ8"))()
+end)
+
+-- Rage
+local Rage = Window:NewTab("Rage")
+local RageSection = Rage:NewSection("Rage")
+
+
+RageSection:NewButton("Fly", "Wonder what this does?!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/NVX9V7ve"))();
+end)
+
+--Silent Aim
+local SilentAim = Window:NewTab("Silent Aim")
+local SilentAimSection = SilentAim:NewSection("Silent Aim")
+
+
+SilentAimSection:NewButton("Silent Aim", "Shoots any person inside the circle", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xUXm1384"))();
+end)
+
+--Misc/Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("FOV Changer")
+
+
+OtherSection:NewButton("FOV Changer", "Hha cee lorg", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/4uTRHzQx"))();
+end)
+
+--Settings
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+
+
+SettingsSection:NewKeybind("Toggle GUI", "are you stupid", Enum.KeyCode.RightAlt, function()
+	Library:ToggleUI()
+end)
