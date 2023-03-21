@@ -38,7 +38,7 @@ Library.UnloadCallback = function()
 end
 
 local MainFrame = Library:CreateWindow({
-	Name = "Tynon Universl",
+	Name = "Beaver Hub",
 	Themeable = {
 		Image = "7059346386",
 		Info = "Made by Tynon",
